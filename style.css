@@ -20,13 +20,25 @@
     margin-left: 10px; 
     margin-bottom: 10px;
 }
-.centr { 
-     
+.centr-left {  
     float:left;
     margin-left: 395px;/* (width/2) - box_widtx - margin_right/2 */
     margin-bottom: 10px;
     margin-right: 10px;
 } 
+
+.centr-right { 
+    float: right; 
+    margin-right: 395px;
+    margin-bottom: 10px;
+} 
+
 .clear { 
     clear: both; 
+}
+.box-big {
+    width: 100px;
+    height: 110px;
+    background: gray;
+    margin-top: -60px;
 }
